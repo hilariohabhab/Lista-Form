@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mochila de viagem</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="contato-header">
+      <a href="contato.html"><h3>Contato</h3></a>
+    </header>
+    <main class="conteudo">
+      <div class="principal">
+        <div class="mochila"></div>
+        <form action="" class="adicionar" id="novoItem">
+          <label for="item">Nome</label>
+          <input type="text" name="nome" id="nome" />
+          <label for="item">Quantidade</label>
+          <input
+            type="number"
+            class="quantidade-item"
+            id="quantidade-excluir"
+            min="1"
+            step="1"
+          />
+          <input type="submit" value="Adicionar" class="cadastrar" />
+        </form>
+      </div>
+
+      <ul class="lista">
+        <li class="item">
+          <strong>1</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Camisas</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>10</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Snacks</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>15</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Mochila</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>5</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Regata</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>3</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Chocolate</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>2</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Shorts</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+        <li class="item">
+          <strong>7</strong>
+          <div class="opcoes">
+            <label for="quantidade-excluir">Meia</label>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+            <input
+              type="number"
+              class="quantidade-excluir"
+              id="quantidade-excluir"
+              min="1"
+              step="1"
+              placeholder="Quantidade"
+              max="1"
+            />
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
